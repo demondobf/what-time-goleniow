@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: unset;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: hsl(0, 0%, 98%);
+}

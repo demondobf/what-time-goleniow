@@ -1,0 +1,9 @@
+{
+  "title": "Która jest teraz godzina w Goleniowie?",
+  "description": "Na tej stronie możesz sprawdzić, która jest teraz godzina w Goleniowie",
+  "heading": "Aktualna godzina",
+  "subheading": "w Goleniowie",
+  "button": "Aktualizuj",
+  "loader": "Aktualizowanie",
+  "error": "Nie wiemy..."
+}

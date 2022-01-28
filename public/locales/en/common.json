@@ -1,0 +1,9 @@
+{
+  "title": "What time is it in Goleniów now?",
+  "description": "On this page you can check the current time in Goleniów",
+  "heading": "The current time",
+  "subheading": "in Goleniów",
+  "button": "Refresh",
+  "loader": "Refreshing",
+  "error": "We don't know..."
+}
