@@ -1,8 +1,8 @@
 export default function Head() {
   return (
     <>
-      <title>Która jest teraz godzina w Goleniowie?</title>
-      <meta name="description" content="Na tej stronie możesz sprawdzić, która jest teraz godzina w Goleniowie" />
+      <title>What time is it in Goleniów now?</title>
+      <meta name="description" content="On this page you can check the current time in Goleniów" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="/favicon.ico" />
     </>

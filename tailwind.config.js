@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-brand)', ...fontFamily.sans],
       },
+      fontSize: {
+        'fluid-lg': 'clamp(1rem, 10vw, 3rem)',
+        'fluid-xl': 'clamp(2rem, 10vw, 5rem)',
+      },
     },
   },
   plugins: [],

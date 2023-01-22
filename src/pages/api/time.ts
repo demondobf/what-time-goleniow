@@ -1,13 +1,13 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const endpoint = 'http://worldtimeapi.org/api/timezone/Europe/Warsaw';
+const TIME_API = 'http://worldtimeapi.org/api/timezone/Europe/Warsaw';
 
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
-    const response = await fetch(endpoint);
+    const response = await fetch(TIME_API);
 
     if (!response.ok) {
-      throw new Error('Failed to fetch WorldTimeAPI');
+      throw new Error('Failed to fetch API providing current time');
     }
 
     const data = await response.json();
