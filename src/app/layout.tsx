@@ -1,4 +1,5 @@
 import { Architects_Daughter } from '@next/font/google';
+import type { ReactNode } from 'react';
 import './globals.css';
 
 const font = Architects_Daughter({
@@ -7,11 +8,6 @@ const font = Architects_Daughter({
   variable: '--font-brand',
 });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head />
-      <body className={`${font.variable} font-sans`}>{children}</body>
-    </html>
-  );
+export default function RootLayout({ children }: { children: ReactNode }) {
+  return <body className={`${font.variable} font-sans`}>{children}</body>;
 }

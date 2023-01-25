@@ -4,11 +4,11 @@ import { useEffect, useState } from 'react';
 
 export const useTime = () => {
   const [time, setTime] = useState(null);
-  const [error, setError] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const fetchTime = async () => {
     setTime(null);
-    setError(false);
+    setIsError(false);
 
     await sleep(randomInRange(1000, 3000));
 
@@ -27,7 +27,7 @@ export const useTime = () => {
 
       setTime(time);
     } catch {
-      setError(true);
+      setIsError(true);
     }
   };
 
@@ -37,7 +37,7 @@ export const useTime = () => {
 
   return {
     time,
-    error,
+    error: isError,
     fetchTime,
   };
 };

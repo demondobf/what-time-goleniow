@@ -1,0 +1,13 @@
+{
+  "head": {
+    "title": "Która jest teraz godzina w Goleniowie?",
+    "description": "Na tej stronie możesz sprawdzić, która jest teraz godzina w Goleniowie"
+  },
+  "home": {
+    "heading": "Aktualna godzina",
+    "subheading": "w Goleniowie",
+    "refresh-button": "Aktualizuj",
+    "time-error": "Coś poszło nie tak i nie wiemy",
+    "time-loading": "Dalej sprawdzam..."
+  }
+}

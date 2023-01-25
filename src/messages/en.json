@@ -1,0 +1,13 @@
+{
+  "head": {
+    "title": "What time is it in Goleniów now?",
+    "description": "On this page you can check the current time in Goleniów"
+  },
+  "home": {
+    "heading": "The current time",
+    "subheading": "in Goleniów",
+    "refresh-button": "Refresh",
+    "time-error": "Something went wrong and we don't know",
+    "time-loading": "Still checking..."
+  }
+}
