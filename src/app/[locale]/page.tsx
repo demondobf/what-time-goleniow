@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { CurrentTime } from '@/components/CurrentTime';
 import { Heading } from '@/components/Heading';
 import { useLocale } from 'next-intl';
