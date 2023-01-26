@@ -6,15 +6,15 @@ import { Button } from './Button';
 
 export const CurrentTime = () => {
   const t = useTranslations('home');
-  const { time, error, fetchTime } = useTime();
+  const { time, isError, fetchTime } = useTime();
 
   return (
     <>
       <div className="mt-4 mb-8 text-fluid-xl">
-        <Content time={time} isError={error} />
+        <Content time={time} isError={isError} />
       </div>
 
-      <Button disabled={!time} onClick={fetchTime}>
+      <Button disabled={!isError && !time} onClick={fetchTime}>
         {t('refresh-button')}
       </Button>
     </>

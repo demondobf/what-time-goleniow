@@ -37,7 +37,7 @@ export const useTime = () => {
 
   return {
     time,
-    error: isError,
+    isError,
     fetchTime,
   };
 };
